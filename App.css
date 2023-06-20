@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.jobs {
+  border: 1px solid grey;
+  max-width: 400px;
+  margin: 25px auto;
+  padding: 15px;
+}
+
+.jobs-item {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid grey;
+}
+
+.job-form {
+  border: 1px solid grey;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.job-form input {
+  height: 28px;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+.job-form button {
+  padding: 8px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.job-item button {
+  padding: 5px 15px;
+  margin-top: 10px;
+  cursor: pointer;
+}
